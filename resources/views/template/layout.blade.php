@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body class="bg-purple">
-    <h1>lorem</h1>
+<body>
+    <div class="container bg-white">
+        @yield('content')
+    </div>
 </body>
 </html>
